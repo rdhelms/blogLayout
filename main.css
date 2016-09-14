@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 290px;
+  background-image: url("houston-skyline.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#iron-yard-logo {
+  z-index: 2;
+  position: absolute;
+  top: 240px;
+  left: 15%;
+  height: 100px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+main {
+  z-index: 1;
+  width: 100%;
+  height: 450px;
+  top: 180px;
+}
+
+#leftBar {
+  float: left;
+  padding: 50px 0 0 15%;
+  width: 30%;
+}
+
+#rightBar {
+  float: right;
+  padding: 60px 0 20px 0;
+  width: 70%;
+}
+
+#leftTitle {
+    padding-top: 20px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #444;
+}
+
+#rightTitle {
+  font-family: arial, sans-serif;
+  width: 65%;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  padding-left: 20px;
+  color: #444;
+}
+
+#happenings {
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #999;
+  line-height: 24px;
+  border-bottom: 1px solid #999;
+}
+
+#author {
+  font-size: 17px;
+  font-style: italic;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: #555;
+}
+
+#room-picture {
+  padding-top: 15px;
+  padding-left: 20px;
+  width: 50%;
+}
+
+#search-text {
+  font-size: 15px;
+  color: #999;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
+#search-bar {
+  border: 1px solid lightgray;
+  margin-top: 15px;
+  padding: 5px;
+  width: 90%;
+  background-position: 95%;
+  background-image: url("search-logo.png");
+  background-size: 10px;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pop-up {
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+  height: 100px;
+  width: 300px;
+  /*border: 1px solid #999;*/
+  font-family: arial, sans-serif;
+  box-shadow: -1px 1px 10px #888;
+}
+
+#pop-up-logo {
+  position: absolute;
+  height: 40px;
+}
+
+
+#top {
+  padding: 7px;
+  height: 35%;
+  width: 100%;
+  border-bottom: 1px solid #888;
+  font-weight: bold;
+  color: #555;
+}
+
+#close {
+  color: #999;
+  float: right;
+}
+
+#bottom {
+  height: 70%;
+  padding: 10px;
+}
+
+#tiyname1, #tiyname2 {
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+#tiyname1 {
+  color: #555;
+  font-weight: bold;
+}
+
+#tiyname2 {
+  color: #888;
+}
+
+#follow {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 75px;
+  height: 30px;
+  background-color: #3B88EA;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+#add {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+
+#follow-word {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
